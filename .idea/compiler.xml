@@ -7,16 +7,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="crawl-ssi" />
+        <module name="crawl-corporate" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="crawl-ssi" target="1.8" />
+      <module name="crawl-corporate" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="crawl-ssi" options="-parameters" />
+      <module name="crawl-corporate" options="-parameters" />
     </option>
   </component>
 </project>

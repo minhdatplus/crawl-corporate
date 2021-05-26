@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/crawl-ssi.iml" filepath="$PROJECT_DIR$/crawl-ssi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/crawl-corporate.iml" filepath="$PROJECT_DIR$/crawl-corporate.iml" />
     </modules>
   </component>
 </project>

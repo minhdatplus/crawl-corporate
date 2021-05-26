@@ -7,13 +7,13 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
-@FeignClient(name = "ssiClient", url = "${url.ssi.host}")
+@FeignClient(name = "ssiClient", url = "${url.host}")
 public interface SsiClient {
 
-    @GetMapping("${url.ssi.endpoint.defaultallstock}")
+    @GetMapping("${url.endpoint.defaultallstock}")
     ListLikeResp<SingleStockModel> getAllStock();
 
-    @PostMapping("${url.ssi.endpoint.corporateactions}")
+    @PostMapping("${url.endpoint.corporateactions}")
     CorporateActionResp getCorporateAction(
             @RequestBody CorporateActionReqModel corporateActionReqModel
     );
